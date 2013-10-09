@@ -11,5 +11,5 @@ Just put the class 'load-image' in your ```<img>``` tag, with the src attribute 
 Example:
 =============
 ```html
-<img class="load-image" src="/img/loader.gif" data-src="/img/my-image.png" alt="My image" title="My image"/>
+<img class="load-image" src="images/loader.gif" data-src="images/sunset_sky.jpg" height="322" width="480" alt="sunset_sky" title="sunset_sky"/>
 ```
