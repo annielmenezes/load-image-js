@@ -13,7 +13,6 @@
 
         init: function(){
             var images = doc.getElementsByClassName(this.classSelector);
-            console.log(images);
             win.onscroll = function(){
                 loadApp.showImage(images);
             };
@@ -31,7 +30,6 @@
                     // Colocadas aqui por problemas de hoistings (hasteamento)
                     attrSrc = images[this.index].getAttribute('data-src'),
                     isVisible = imgPosTop - windowPosTop < windowHeight;
-                    console.log(isVisible);
                 if (isVisible) {
                     images[this.index].setAttribute('src', attrSrc);
                     images.item(this.index).removeAttribute('data-src');
